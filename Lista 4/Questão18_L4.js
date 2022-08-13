@@ -6,9 +6,7 @@ const inverte = (p) => {
    
 }
 
-const palindromo = (str) => (strInversa) =>{
-    strInversa = inverte(str)
-    if(str.toUpperCase() == strInversa.toUpperCase()) return true
-    else return false
+const palindromo = (str) => (strInversa = inverte(str)) =>{
+    return (str.toUpperCase() == strInversa.toUpperCase()) ? true:false
 }
 console.log(palindromo("Tenet")())
