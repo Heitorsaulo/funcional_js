@@ -15,7 +15,7 @@ const whatTriangule = (l1, l2, l3) =>{
 }
 
 
-if(canBeTriangule(l1,l2,l3)){
+if(canBeTriangule(l1)(l2)(l3)){
 console.log(whatTriangule(4,4,4))
 }
 else{
